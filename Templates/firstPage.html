@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card text-center">
+    <div>
+        <h1>Welcome to Polls Questions!</h1>
+    </div>
+    <p> Dias da eleição neste momento </p>
+    <a href="{% url 'polls:viewIndex' %}" class="btn btn-primary btn-sm">Ver Polls disponiveis</a>
+</div>
+{% endblock %}
