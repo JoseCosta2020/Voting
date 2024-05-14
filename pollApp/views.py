@@ -12,6 +12,9 @@ def QuestionTeste(request):
 def Goods(request):
     return HttpResponse('OLELLE')
 
+def Goods2(request):
+    return HttpResponse('OLELLEhhhhhhh')
+
 
 #Get Question and display questions
 def index(request):
