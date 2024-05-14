@@ -15,6 +15,11 @@ def Goods(request):
 def Goods2(request):
     return HttpResponse('OLELLEhhhhhhh')
 
+def Goods3(request):
+    return HttpResponse('OLELLEhhhhhhh33333')
+
+def Goods34(request):
+    return HttpResponse('OLELLEhhhhhhh33333')
 
 #Get Question and display questions
 def index(request):
