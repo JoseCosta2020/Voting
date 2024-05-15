@@ -18,6 +18,15 @@ def Goods2(request):
 def SerAparece(request):
     return HttpResponse('Será Aparece ?')
 
+def Goods3(request):
+    return HttpResponse('OLELLEhhhhhhh33333')
+
+def Goods4(request):
+    return HttpResponse('OLELLEhhhhhhh33333')
+
+def Aparece(request):
+    return HttpResponse('Será que Aparece??')
+
 #Get Question and display questions
 def index(request):
     latest_question_list = Question.objects.order_by('pub_date')[:5]
