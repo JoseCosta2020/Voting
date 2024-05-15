@@ -15,6 +15,9 @@ def Goods(request):
 def Goods2(request):
     return HttpResponse('OLELLEhhhhhhh')
 
+def testarm(request):
+    return HttpResponse('OLELLEhhhhhhhTestar')
+
 
 #Get Question and display questions
 def index(request):
