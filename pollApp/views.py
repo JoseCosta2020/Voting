@@ -23,6 +23,8 @@ def Goods4(request):
 
 def Aparece(request):
     return HttpResponse('Será que Aparece??')
+def ApareceFinal(request):
+    return HttpResponse('Será que Aparece Final??')
 
 #Get Question and display questions
 def index(request):
