@@ -15,6 +15,9 @@ def Goods(request):
 def Goods2(request):
     return HttpResponse('OLELLEhhhhhhh')
 
+def SerAparece(request):
+    return HttpResponse('Será Aparece ?')
+
 def Goods3(request):
     return HttpResponse('OLELLEhhhhhhh33333')
 
