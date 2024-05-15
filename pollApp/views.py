@@ -15,6 +15,9 @@ def Goods(request):
 def Goods2(request):
     return HttpResponse('OLELLEhhhhhhh')
 
+def SerAparece(request):
+    return HttpResponse('Será Aparece ?')
+
 #Get Question and display questions
 def index(request):
     latest_question_list = Question.objects.order_by('pub_date')[:5]
