@@ -15,6 +15,13 @@ def Goods(request):
 def Goods2(request):
     return HttpResponse('OLELLEhhhhhhh')
 
+#Goodo
+def Goods3(request):
+    return HttpResponse('OLELLE33333333')
+
+def Goods4(request):
+    return HttpResponse('OLELLEhhhhhhh4444444')
+
 def testarm(request):
     return HttpResponse('OLELLEhhhhhhhTestar')
 
