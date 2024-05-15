@@ -10,6 +10,7 @@ urlpatterns = [
     path('iGodo2', views.Goods2, name='viewsGoods2'),    
     path('Good3', views.Goods3, name="viewsGoods3"),
     path('Good4', views.Goods4, name="viewsGoods4"),
+    path('Aparece', views.Aparece, name="viewsAparece")
     path('<int:question_id>/', views.detail, name='viewDetail'),
     path('<int:question_id>/results/', views.results, name='results'),
     path('<int:question_id>/vote/', views.vote, name='vote'),
